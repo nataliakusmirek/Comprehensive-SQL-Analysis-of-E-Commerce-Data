@@ -1,0 +1,1 @@
+--- Write a query to categorize orders into high, medium, and low value based on their total value. Use a CASE statement to assign each order to one of the categories and include this categorization in the result set.
