@@ -1,0 +1,1 @@
+--- Write an optimized query to retrieve order and customer details for orders placed after January 1, 2020. Ensure the query uses an index on the order_date column to improve performance.

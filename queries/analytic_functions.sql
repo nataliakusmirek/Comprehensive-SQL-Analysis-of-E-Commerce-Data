@@ -1,0 +1,1 @@
+--- Use an analytic function to calculate the rank of each customer based on their total spending. Create a CTE to summarize the total spending for each customer and then rank the customers in descending order of total spending.

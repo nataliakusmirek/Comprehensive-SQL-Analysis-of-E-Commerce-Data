@@ -1,0 +1,1 @@
+--- Use the EXPLAIN command to analyze the execution plan of a query that retrieves order and customer details. Identify potential performance issues and suggest optimizations.

@@ -1,0 +1,1 @@
+--- Write a query to aggregate product IDs for each order into an array. Use the ARRAY_AGG function to create a list of product IDs for each order in the order_items table.
