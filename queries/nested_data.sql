@@ -1,1 +1,0 @@
---- Write a query to extract specific information from a nested JSON field in the orders table. Use JSON functions to retrieve the value of a specific key from the nested JSON structure.
