@@ -3,24 +3,22 @@ WITH ranked_prices AS (
     SELECT
         order_id,
         item_description,
-        unit_price
+        unit_price,
         RANK() OVER (
             PARTITION BY order_id
             ORDER BY unit_price DESC
         ) AS price_rank
-        FROM
-            online_orders
-    )
-    SELECT
-        order_id,
-        item_description,
-        unit_price
     FROM
-        ranked_prices
-    WHERE
-        price_rank <= 3;
-
-
+        online_orders
+)
+SELECT
+    order_id,
+    item_description,
+    unit_price
+FROM
+    ranked_prices
+WHERE
+    price_rank <= 3;
 
 
 
